@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layout_marginLeft="@dimen/margin_medium"
+    android:layout_marginRight="@dimen/margin_medium"
+    android:layout_marginBottom="@dimen/margin_medium"
+    android:background="@drawable/rounded_corners"
+    android:backgroundTint="@color/teal_200"
+    android:backgroundTintMode="src_in"
+    android:gravity="center_vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|start"
+        android:text="@string/element_text"
+        android:textColor="#004D40" />
+</FrameLayout>
